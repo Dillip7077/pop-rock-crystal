@@ -1,0 +1,134 @@
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    background-color: rgba(17, 156, 208, 1);
+    background-image: url('../../public/assets/Vector2.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    overflow: hidden;
+    min-height: 500px; 
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    z-index: 1;
+    color: #31546D;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.left-container h2,
+.left-container h1 {
+    font-family: 'Google Sans', sans-serif;
+}
+
+.left-container h2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 65px;
+    margin-bottom: 0;
+}
+
+.left-container h1 {
+    margin: 10px 0;   
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.left-container p {
+    margin: 10px 0;
+}
+
+.left-container button {
+    margin-top: 10px; 
+    background-color: rgba(17, 156, 208, 1);
+    color: white;     
+    border: none;     
+    padding: 10px 35px; 
+    border-radius: 15px; 
+    cursor: pointer;  
+}
+
+.right-container {
+    position: relative;
+    width: 744px;
+    height: 744px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: conic-gradient(rgba(255, 255, 255, 0.2) 0% 60%, rgba(211, 211, 211, 0) 60% 100%);
+    transform: rotate(90deg);
+    transform-origin: center;
+}
+
+.circle {
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.large-circle {
+    width: 570px;
+    height: 570px;
+    z-index: 1;
+}
+
+.medium-circle {
+    width: 364px;
+    height: 364px;
+    z-index: 2;
+}
+
+.small {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    width: 248px;
+    height: 248px;
+    z-index: 3;
+    transform: translate(-50%, -50%) rotate(270deg);
+}
+
+.sml {
+    padding-right: 20px;
+    font-size: medium;
+    color: #41A0B7;
+    text-decoration: line-through;
+}
+
+.big {
+    display: flex;
+    color: #E35B3E;
+    align-items: center;
+    font-family: 'Google Sans', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 89.04px;
+    text-align: center;
+}
+
+.left-container button {
+    margin-top: 10px; 
+    background-color: rgb(17, 156, 208); 
+    color: white; 
+    border: none; 
+    padding: 10px 35px; 
+    border-radius: 15px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+.left-container button:hover {
+    background-color: rgba(17, 156, 208, 0.8); 
+    transform: scale(1.05); 
+}

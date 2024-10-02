@@ -1,0 +1,10 @@
+#footer {
+    background-color: #0A294DCC;
+    height: 269px;
+}
+.text {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+}
